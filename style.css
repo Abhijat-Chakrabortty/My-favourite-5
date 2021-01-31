@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding-top:800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.menu{
+    position: fixed;
+    top:0px;
+    background-color: white;
+    width: 100%;
+        margin-top: 0px;
+    z-index: 10;
+}
+.links{
+   display:inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+   }
+.links:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+    font-size: 25px;
+}
+#welcome {
+    position: absolute;
+    z-index: 9;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#ffd500 8.333333333333333%, #ff6f00 16.66666666666667%, #ff4800 25%, #ff0000 33.33333333333333%, #ff0062 41.66666666666667%, #dd00ff 50%, #6f00ff 58.33333333333333%, #0026ff 66.66666666666667%, #00fbff 75%, #00ff33 83.33333333333333%, #b3ff00 91.66666666666666%, #d0ff00 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background-color: antiquewhite;
+    background-size: auto;
+}
+#name {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+.article:hover{
+    color: fuchsia;
+}
+html{
+    scroll-behavior: smooth;
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+#contact{
+    background:firebrick;
+}
+.contact{
+ color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
+#contact iframe{
+    width: 100%;
+}
+#rt{
+    width: 200px;
+    height: 200px;
+}
+#nm{
+    width: 200px;
+    height: 200px;
+}
+#sv{
+    width: 200px;
+    height: 200px;
+}
+#SubhashChandraBose{
+    background-color: yellow;
+}
+#RatanTata{
+    background-color: red;
+}
+#NarendraModi{
+    background-color: greenyellow;
+}
+#SwamiVivekananda{
+    background-color: darkorange;
+}
+h5{
+    font-size: 20px;
+    color: blue
+}
